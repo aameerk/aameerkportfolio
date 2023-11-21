@@ -1,0 +1,25 @@
+/* about.component.css */
+
+.about-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .skills {
+    margin-top: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
