@@ -1,0 +1,12 @@
+<div *ngIf="project | async as project" class="container-fluid">
+  <h3>Project Details</h3>
+    <div class="card col-xs-12 col-md-4">
+      <p>Project Title: {{project.title}}</p>
+      <p>Project Description: {{project.description}}</p>
+      <p>Image Url: {{project.image}}</p>
+
+      <form (submit)="onDeleteSubmit()">
+        <button>Delete </button>
+      </form>
+    </div>
+</div>

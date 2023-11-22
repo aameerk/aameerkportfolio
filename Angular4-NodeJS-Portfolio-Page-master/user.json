@@ -1,0 +1,88 @@
+{
+    "id": "",
+
+    "personalInformation": 
+    {
+        "shortDescription":"",
+        "profilePhotoUrl":"",
+        "fullName":"" ,
+        "birthDate":"",
+        "socialMedia":
+        {
+            "github":"",
+            "linkedin":"",
+            "facebook":""
+        },
+        "email":"",
+        "cellphone":"",
+        "address": 
+        {
+            "country":"",
+            "state":"",
+            "city":"",
+            "street":"",
+            "number":"",
+            "zipcode":""
+        }
+    }
+    ,
+
+    "skills":
+    {
+        "name":"",
+        "imgUrl":""
+    },
+
+    "workExperience": 
+    {
+        "companyName":"",
+        "startDate":"",
+        "endDate":"",
+        "projects":
+        {
+            "name":"",
+            "description":""
+        }
+        ,
+        "technologies":""
+    },
+    
+    "formalEducation":
+    {      
+        "institutionName":"",
+        "course":"",
+        "classYear":"",
+        "concentrationField":""
+    },
+
+    "continuedEducation":
+    {
+        "books":
+        {
+          "title":"",
+          "coverImgUrl":"",
+          "startDate":"",
+          "endDate":""      
+        }
+        ,
+        "courses":
+        {
+            "name":"",
+            "startDate":"",
+            "endDate":"",
+            "url":"",
+            "imgUrl":""
+        }
+    }
+
+    ,
+    "portfolioSiteMetadata":
+    {
+        "technologies":"",
+        "lastUpdate":""
+    }
+
+
+
+
+}

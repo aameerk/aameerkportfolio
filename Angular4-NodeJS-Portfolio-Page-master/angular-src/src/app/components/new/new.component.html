@@ -1,0 +1,16 @@
+<h2>New Project</h2>
+<form (submit)="onRegisterSubmit()">
+  <div class="form-group">
+    <label for="">Title</label>
+    <input type="text" class="form-control" [(ngModel)]="title" name="title">
+  </div>
+  <div class="form-group">
+    <label for="">Image Url</label>
+    <input type="text" class="form-control"  [(ngModel)]="image" name="image">
+  </div>
+  <div class="form-group">
+    <label for="">Description</label>
+    <input type="text" class="form-control"  [(ngModel)]="description" name="description">
+  </div>
+  <input type="submit" class="btn " value="Submit">
+</form>

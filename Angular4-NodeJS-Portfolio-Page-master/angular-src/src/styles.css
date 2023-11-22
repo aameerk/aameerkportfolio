@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+.jumbotron{
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+h3{
+    text-align: center;
+}
+
+.link{
+    color:white;
+    font-size: 1.5em;
+}
+#user-photo{
+    border-radius: 50%;
+    width:60%;
+    height:60%;
+}
+
+.card-img-top{
+  width:100%;
+  height:auto;
+}
+
+.jumbotron{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+#brand{
+    padding: auto;
+    margin: auto;
+}
+.jumbo-left{
+    order:1;
+    padding: auto;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.jumbo-right{
+    order: 3;
+    padding: auto;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    font-size: 100%
+}
+
+.card-group{
+    display: flex;
+}
+
+.jumbo-midle {
+    order: 2;
+    padding: auto;
+    margin: auto;
+}
+

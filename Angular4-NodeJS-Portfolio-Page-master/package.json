@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Gabriel Amazonas",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.17.1",
+    "cors": "*",
+    "express": "^4.15.2",
+    "express-sanitizer": "^1.0.2",
+    "express-session": "^1.15.2",
+    "jsonwebtoken": "^8.1.0",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.9",
+    "passport": "^0.3.2",
+    "passport-jwt": "*",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0"
+  }
+}

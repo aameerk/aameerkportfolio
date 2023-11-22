@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <h3>Main Projects</h3>
+    <div *ngFor="let project of projects | async" class="card col-xs-12 col-md-4">
+      <img class="card-img-top" [src]="project.image" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">{{project.title}}</h4>
+        <p class="card-text">{{project.description}}</p>
+        <a [routerLink]="['/projects', project._id]"> Show Project</a>
+        <a [routerLink]="['/projects', project._id, 'edit']"> Edit Project</a>
+      </div>
+    </div>
+</div>
